@@ -2,6 +2,9 @@
 
 int main(void) {
   int i = 34;
-  printf("helloworld\n");
+  while (i <= 37) {
+    printf("helloworld\n");
+    i++;
+  }
   return 0;
 }
